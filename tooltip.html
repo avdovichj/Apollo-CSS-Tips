@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Tooltip</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="toolstyle.css">
+	</head>
+	<body>
+		<div class="dropdown-menu">
+			<input type="checkbox" id="menu">
+			<label for="menu">Menu</label>
+			<div class="menu-content">
+				<ul>
+					<li><a href="#">Home</a></li>
+					<li><a href="#">About</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+
+		<form>
+			<label>Enter password:</label>
+			<input type="password" name="pass">
+			<span class="tooltip" data-tooltip="Password must be between 8 and 30 characters and contain at least one uppercase letter (ex: A, B, etc.), one lowercase letter (ex: a, b, etc.) and at least one number digit (ex: 0, 1, 2, etc.)">?</span>
+		</form>
+	</body>
+</html>
